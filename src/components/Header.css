@@ -1,0 +1,38 @@
+.header-container {
+  position: relative; 
+  text-align: center; 
+}
+
+.header-content {
+  position: relative; 
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.header-title {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 2rem; 
+  z-index: 1; 
+}
+
+.header-description {
+  position: absolute;
+  top: calc(50% + 3rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.header-image {
+  display: block; 
+  width: 100vw; 
+  height: 40vh; 
+  filter: brightness(20%);
+}
+
+
